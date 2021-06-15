@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SubActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,11 +12,11 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btNext"
+            android:id="@+id/btPrevious"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onButtonClick"
-            android:text="@string/bt_next"/>
+            android:text="@string/bt_previous"/>
 
     </LinearLayout>
 
